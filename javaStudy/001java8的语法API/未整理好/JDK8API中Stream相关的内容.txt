@@ -35,10 +35,17 @@ Stream和集合的不同之处：
 (6) 还可以通过一些底层技术，通过其他的一些框架得到stream。 
 
 
+Stream 流的相关API
+	isParallel() 方法判断一个流是并行流还是串行流。 
+	可以通过BseStream.sequential() 和BaseStream.parallel() 方法来修改流的串行以及并行方式。 
+
 
 
 思考：
 Stream背后的数据结构可以是：an Array, a generator function, or an I/O channel, through a pipeline of computational operations. 这些数据结构都是如何转换成为Stream的。 
+
+Function 接口有什么特点？？
+
 
 
 
